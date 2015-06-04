@@ -557,12 +557,13 @@ video {
     transform: translateX(-50%) translateY(-50%);
    background-size:cover;
   transition: 1s opacity;
+  
 }
 
 #polina { 
   font-family: Agenda-Light, Agenda Light, Agenda, Arial Narrow, sans-serif;
   font-weight:100; 
-  background: rgba(192,192,192,0.3);
+  
   color: white;
   padding: 2rem;
   width: 100%;
@@ -570,15 +571,25 @@ video {
   text-align: center;
   font-size: 1.2rem;
   z-index: -99;
-  transform: translateX(-2%)translateY(180%);
+  transform: translateX(-2%)translateY(0%);
 }
 h1 {
   font-size: 7rem;
   text-transform: uppercase;
   margin-top: 0;
   letter-spacing: .3rem;
+  color:#fff;
 }
 
+.hr-home-hero .overlay {
+  background: rgba(0,0,0,0.5) url("https://hrcdn.net/hackerrank/assets/header-dotgrid.png") repeat center center;
+  width: 100%;
+  max-width: 100%;
+  padding: 8em 0;
+  height: 73%;
+  z-index: -1;
+  position: relative;
+}
 @media screen and (max-width: 500px) { 
   div{width:70%;} 
 }

@@ -55,18 +55,21 @@
                 <div class="col-sm-10 col-sm-offset-2">
                     <div class="row">
                         <div class="video-player">
-                            <div class="col-sm-10">
-                                
-                                <video autoplay poster="" id="bgvid" loop>
+                            <div class=" static-hero hr-home-hero col-sm-10">
+
+                                <video autoplay poster="" id="bgvid" loop muted>
                                     <!-- WCAG general accessibility recommendation is that media such as background video play through only once. Loop turned on for the purposes of illustration; if removed, the end of the video will fade in the same way created by pressing the "Pause" button  -->
-                                    <source src="public/video/video.mp4" type="video/mp4">
+                                    <source src="https://hrcdn.net/videos/hr_20mb.webm" type="video/webm">
                                 </video>
-                               </div>
-                                <div id="polina">
-                                    <h1>UNIVERSIDAD CALASANZ</h1>
-                                    
+                                <div class="overlay col-sm-12">
+                                    <div id="polina">
+                                        <h1>UNIVERSIDAD CALASANZ</h1>
+
+                                    </div>
                                 </div>
-                            
+                            </div>
+
+
                         </div>
                     </div>
                 </div>
